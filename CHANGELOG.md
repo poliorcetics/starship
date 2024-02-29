@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.18.0](https://github.com/starship/starship/compare/v1.17.1...v1.18.0) (2024-02-29)
+
+
+### Features
+
+* **bash:** Support right prompt and transience ([#4902](https://github.com/starship/starship/issues/4902)) ([5ead13d](https://github.com/starship/starship/commit/5ead13d6aa6303c85c562f1b940048cc539667cd))
+* **direnv:** use JSON status with direnv &gt;= 2.33.0 ([#5692](https://github.com/starship/starship/issues/5692)) ([482c7b7](https://github.com/starship/starship/commit/482c7b719fc304fcad5f3572c4551f8ff4179522))
+
+
+### Bug Fixes
+
+* **bash:** Handle Unbound Variables Errors in Bash ([#4972](https://github.com/starship/starship/issues/4972)) ([7093d5c](https://github.com/starship/starship/commit/7093d5cd84967edba93c9ed412b07519664f6356))
+* **bash:** improve integration with bash-preexec ([#5734](https://github.com/starship/starship/issues/5734)) ([2aa711c](https://github.com/starship/starship/commit/2aa711ccc7096437e21149b18d1384534bfbcc57))
+* **character:** also handle vi edit mode in pwsh ([#5775](https://github.com/starship/starship/issues/5775)) ([0891ec2](https://github.com/starship/starship/commit/0891ec27a40421cd742a853885731aed63f412aa))
+* **direnv:** update to work with direnv v2.33 ([#5657](https://github.com/starship/starship/issues/5657)) ([cec111a](https://github.com/starship/starship/commit/cec111affdaf0a52f72c398f8307cf7e19c7dd8d))
+* **git_branch:** fall back to "HEAD" when there is no current branch ([#5768](https://github.com/starship/starship/issues/5768)) ([6a96e84](https://github.com/starship/starship/commit/6a96e84a15e3ea598356e4fcad23ac4b2690dd1e))
+* **zsh:** improve starship binary path escaping ([#5574](https://github.com/starship/starship/issues/5574)) ([2bb57cf](https://github.com/starship/starship/commit/2bb57cf0cd6d53194d26f4be96dff5fa14942622))
+
 ## [1.17.1](https://github.com/starship/starship/compare/v1.17.0...v1.17.1) (2024-01-02)
 
 
